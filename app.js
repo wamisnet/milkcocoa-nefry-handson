@@ -47,6 +47,7 @@ dot_ds.on('push',(pushed) => {
             if(i!=0&&i%2){
                 position=15-position;
             }
+            position=15-position;
             position+=16*i;
             addClass(color);
             console.log(position);
