@@ -38,7 +38,7 @@ dot_ds.on('push',(pushed) => {
     red = parseInt(color.substr(1,2), 16);
     green = parseInt(color.substr(3,2), 16);
     blue = parseInt(color.substr(5,2), 16);
-
+console.log("position");
     position = pushed.value.index;
     flag = 1;
     for(var i=0;i<16;i++){
